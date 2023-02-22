@@ -117,7 +117,7 @@ function App() {
         <div className="grid max-w-lg grid-cols-1 mx-auto mt-8 gap-y-12 lg:mt-24 lg:max-w-none lg:grid-cols-2">
           <div className="lg:px-12 xl:px-16">
             <div className="text-center">
-              <h1 className="text-3xl font-semibold text-gray-900 sm:text-4xl xl:text-4xl font-pj">GET WEB3 ACCELERATORS LIST</h1>
+              <h1 className="text-3xl font-semibold text-gray-900 sm:text-4xl xl:text-4xl font-pj">GET WEB3 & WEB2 ACCELERATORS LIST</h1>
 
               <div className="flex justify-center flex-shrink-0 mt-8 -space-x-4 overflow-hidden">
                 <img className="inline-block rounded-full w-14 h-14 ring-2 ring-white" src="./assets/chain/ethereum.jpg" alt="" />
@@ -150,6 +150,7 @@ function App() {
                     id=""
                     placeholder="Email address"
                     className="input-style focus:border-red-900 focus:outline-none focus:ring-white"
+                    autoFocus
                   />
                 </div>
                 <div className='btn-input-wrap block'>
